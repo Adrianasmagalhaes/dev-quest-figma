@@ -1,0 +1,65 @@
+html{
+    /* tranforma a font-size que era por padrão de 16px para 10px */
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #a09191; */
+    padding: 45px;
+
+}
+ .logo{
+    display: flex;
+    align-items: center;
+ 
+}
+.logo h1{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+.menu li a{
+padding: 10px 5px;
+transform: 0.3s ease-in-out;
+margin-left: 1.5rem;
+font-size: 1.5rem;
+/* movimento com mouse */
+
+} 
+.menu li a:hover {
+    /* transiçao do menu */
+    background-color: #5BC241;
+    color: #FFFFFF;
+}
+.menu li a.btn {
+    background-color: #5BC241; 
+    border-radius:10px;
+    color: #FFFFFF;
+    margin-left: 3rem;
+    padding: 10px 20px;
+   
+}
+
+/* .header .logo a{
+    width: 80px;
+    height: 24px;
+    margin-top: 55px;
+    margin-left: 95px;
+} */
